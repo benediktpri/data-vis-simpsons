@@ -2,6 +2,10 @@
 name = "data-vis-simpsons"
 version = "0.1.0"
 description = "First Project for Data Visualization Course at FIB UPC"
+authors = [
+    { name = "Benedikt Prisett" },
+    { name = "Stijn Diemel" },
+]
 readme = "README.md"
 requires-python = ">=3.13, <3.14"
 dependencies = [
