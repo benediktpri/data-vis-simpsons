@@ -5,13 +5,13 @@ First project delivery for the Data Visualization course at FIB, Universitat Pol
 **Authors:** Benedikt Prisett & Stijn Diemel
 
 **Key files:**
-- [`02_cleaning.ipynb`](02_cleaning.ipynb) -- Data cleaning steps (reproducible)
-- [`03_visualization.ipynb`](03_visualization.ipynb) -- All chart designs, iterations, and written explanations per question
-- [`streamlit/app.py`](streamlit/app.py) -- Final multi-view dashboard
+- [`02_cleaning.ipynb`](02_cleaning.ipynb) – Data cleaning steps (reproducible)
+- [`03_visualization.ipynb`](03_visualization.ipynb) – All chart designs, iterations, and written explanations per question
+- [`streamlit/app.py`](streamlit/app.py) – Final multi-view dashboard
 
 ## Research Questions
 
-This project analyzes The Simpsons dataset (Seasons 1--27, 1989--2016) to answer five questions about how the show's viewership and ratings evolved over time:
+This project analyzes The Simpsons dataset (Seasons 1–27, 1989–2016) to answer five questions about how the show's viewership and ratings evolved over time:
 
 1. How have the ratings evolved over time?
 2. How have the viewers evolved over time?
@@ -19,7 +19,7 @@ This project analyzes The Simpsons dataset (Seasons 1--27, 1989--2016) to answer
 4. Are the number of viewers for the episodes related to the weekday they were aired?
 5. Do the seasons' number of viewers present any relevant pattern?
 
-A central design decision is the **three-era color scheme** that groups seasons into Golden Age (S1--8), Transition (S9--18), and Decline (S19--27), providing a consistent visual narrative across all charts.
+A central design decision is the **three-era color scheme** that groups seasons into Golden Age (S1–8), Transition (S9–18), and Decline (S19–27), providing a consistent visual narrative across all charts.
 
 ## Dashboard
 
