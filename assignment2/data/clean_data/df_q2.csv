@@ -1,30 +1,4 @@
 character_names,season,word_count
-Apu Nahasapeemapetilon,1,101.0
-Apu Nahasapeemapetilon,2,198.0
-Apu Nahasapeemapetilon,3,411.0
-Apu Nahasapeemapetilon,4,458.0
-Apu Nahasapeemapetilon,5,1111.0
-Apu Nahasapeemapetilon,6,265.0
-Apu Nahasapeemapetilon,7,1511.0
-Apu Nahasapeemapetilon,8,225.0
-Apu Nahasapeemapetilon,9,1132.0
-Apu Nahasapeemapetilon,10,523.0
-Apu Nahasapeemapetilon,11,909.0
-Apu Nahasapeemapetilon,12,187.0
-Apu Nahasapeemapetilon,13,763.0
-Apu Nahasapeemapetilon,14,306.0
-Apu Nahasapeemapetilon,15,261.0
-Apu Nahasapeemapetilon,16,343.0
-Apu Nahasapeemapetilon,17,106.0
-Apu Nahasapeemapetilon,18,294.0
-Apu Nahasapeemapetilon,19,182.0
-Apu Nahasapeemapetilon,20,200.0
-Apu Nahasapeemapetilon,21,578.0
-Apu Nahasapeemapetilon,22,136.0
-Apu Nahasapeemapetilon,23,272.0
-Apu Nahasapeemapetilon,24,207.0
-Apu Nahasapeemapetilon,25,97.0
-Apu Nahasapeemapetilon,26,882.0
 Bart Simpson,1,4868.0
 Bart Simpson,2,5679.0
 Bart Simpson,3,6253.0
@@ -77,32 +51,6 @@ C. Montgomery Burns,23,945.0
 C. Montgomery Burns,24,1338.0
 C. Montgomery Burns,25,826.0
 C. Montgomery Burns,26,1669.0
-Carl Carlson,1,30.0
-Carl Carlson,2,84.0
-Carl Carlson,3,158.0
-Carl Carlson,4,173.0
-Carl Carlson,5,166.0
-Carl Carlson,6,219.0
-Carl Carlson,7,106.0
-Carl Carlson,8,190.0
-Carl Carlson,9,200.0
-Carl Carlson,10,278.0
-Carl Carlson,11,329.0
-Carl Carlson,12,411.0
-Carl Carlson,13,551.0
-Carl Carlson,14,382.0
-Carl Carlson,15,343.0
-Carl Carlson,16,192.0
-Carl Carlson,17,416.0
-Carl Carlson,18,295.0
-Carl Carlson,19,286.0
-Carl Carlson,20,258.0
-Carl Carlson,21,706.0
-Carl Carlson,22,159.0
-Carl Carlson,23,303.0
-Carl Carlson,24,575.0
-Carl Carlson,25,418.0
-Carl Carlson,26,219.0
 Chief Wiggum,1,132.0
 Chief Wiggum,2,14.0
 Chief Wiggum,3,666.0
@@ -129,58 +77,6 @@ Chief Wiggum,23,632.0
 Chief Wiggum,24,522.0
 Chief Wiggum,25,643.0
 Chief Wiggum,26,456.0
-Dr. Julius Hibbert,1,0.0
-Dr. Julius Hibbert,2,597.0
-Dr. Julius Hibbert,3,128.0
-Dr. Julius Hibbert,4,375.0
-Dr. Julius Hibbert,5,222.0
-Dr. Julius Hibbert,6,275.0
-Dr. Julius Hibbert,7,199.0
-Dr. Julius Hibbert,8,547.0
-Dr. Julius Hibbert,9,384.0
-Dr. Julius Hibbert,10,567.0
-Dr. Julius Hibbert,11,402.0
-Dr. Julius Hibbert,12,615.0
-Dr. Julius Hibbert,13,444.0
-Dr. Julius Hibbert,14,540.0
-Dr. Julius Hibbert,15,358.0
-Dr. Julius Hibbert,16,417.0
-Dr. Julius Hibbert,17,331.0
-Dr. Julius Hibbert,18,66.0
-Dr. Julius Hibbert,19,237.0
-Dr. Julius Hibbert,20,242.0
-Dr. Julius Hibbert,21,234.0
-Dr. Julius Hibbert,22,93.0
-Dr. Julius Hibbert,23,88.0
-Dr. Julius Hibbert,24,176.0
-Dr. Julius Hibbert,25,338.0
-Dr. Julius Hibbert,26,207.0
-Edna Krabappel-Flanders,1,281.0
-Edna Krabappel-Flanders,2,217.0
-Edna Krabappel-Flanders,3,860.0
-Edna Krabappel-Flanders,4,285.0
-Edna Krabappel-Flanders,5,352.0
-Edna Krabappel-Flanders,6,546.0
-Edna Krabappel-Flanders,7,190.0
-Edna Krabappel-Flanders,8,582.0
-Edna Krabappel-Flanders,9,190.0
-Edna Krabappel-Flanders,10,114.0
-Edna Krabappel-Flanders,11,118.0
-Edna Krabappel-Flanders,12,54.0
-Edna Krabappel-Flanders,13,148.0
-Edna Krabappel-Flanders,14,309.0
-Edna Krabappel-Flanders,15,448.0
-Edna Krabappel-Flanders,16,164.0
-Edna Krabappel-Flanders,17,203.0
-Edna Krabappel-Flanders,18,39.0
-Edna Krabappel-Flanders,19,38.0
-Edna Krabappel-Flanders,20,119.0
-Edna Krabappel-Flanders,21,773.0
-Edna Krabappel-Flanders,22,673.0
-Edna Krabappel-Flanders,23,362.0
-Edna Krabappel-Flanders,24,189.0
-Edna Krabappel-Flanders,25,46.0
-Edna Krabappel-Flanders,26,0.0
 Grampa Simpson,1,330.0
 Grampa Simpson,2,1666.0
 Grampa Simpson,3,145.0
@@ -285,32 +181,6 @@ Krusty the Clown,23,1230.0
 Krusty the Clown,24,195.0
 Krusty the Clown,25,584.0
 Krusty the Clown,26,781.0
-Lenny Leonard,1,41.0
-Lenny Leonard,2,112.0
-Lenny Leonard,3,254.0
-Lenny Leonard,4,125.0
-Lenny Leonard,5,182.0
-Lenny Leonard,6,301.0
-Lenny Leonard,7,179.0
-Lenny Leonard,8,382.0
-Lenny Leonard,9,336.0
-Lenny Leonard,10,419.0
-Lenny Leonard,11,462.0
-Lenny Leonard,12,495.0
-Lenny Leonard,13,722.0
-Lenny Leonard,14,416.0
-Lenny Leonard,15,454.0
-Lenny Leonard,16,221.0
-Lenny Leonard,17,619.0
-Lenny Leonard,18,396.0
-Lenny Leonard,19,337.0
-Lenny Leonard,20,560.0
-Lenny Leonard,21,553.0
-Lenny Leonard,22,326.0
-Lenny Leonard,23,743.0
-Lenny Leonard,24,820.0
-Lenny Leonard,25,432.0
-Lenny Leonard,26,264.0
 Lisa Simpson,1,1871.0
 Lisa Simpson,2,3857.0
 Lisa Simpson,3,3995.0
@@ -441,32 +311,6 @@ Ned Flanders,23,1194.0
 Ned Flanders,24,848.0
 Ned Flanders,25,212.0
 Ned Flanders,26,300.0
-Nelson Muntz,1,135.0
-Nelson Muntz,2,55.0
-Nelson Muntz,3,203.0
-Nelson Muntz,4,123.0
-Nelson Muntz,5,164.0
-Nelson Muntz,6,210.0
-Nelson Muntz,7,274.0
-Nelson Muntz,8,547.0
-Nelson Muntz,9,456.0
-Nelson Muntz,10,557.0
-Nelson Muntz,11,345.0
-Nelson Muntz,12,385.0
-Nelson Muntz,13,104.0
-Nelson Muntz,14,264.0
-Nelson Muntz,15,304.0
-Nelson Muntz,16,598.0
-Nelson Muntz,17,229.0
-Nelson Muntz,18,686.0
-Nelson Muntz,19,582.0
-Nelson Muntz,20,183.0
-Nelson Muntz,21,489.0
-Nelson Muntz,22,946.0
-Nelson Muntz,23,362.0
-Nelson Muntz,24,116.0
-Nelson Muntz,25,372.0
-Nelson Muntz,26,151.0
 Seymour Skinner,1,668.0
 Seymour Skinner,2,806.0
 Seymour Skinner,3,1427.0
@@ -493,29 +337,3 @@ Seymour Skinner,23,877.0
 Seymour Skinner,24,890.0
 Seymour Skinner,25,1195.0
 Seymour Skinner,26,202.0
-Waylon Smithers,1,231.0
-Waylon Smithers,2,986.0
-Waylon Smithers,3,1004.0
-Waylon Smithers,4,310.0
-Waylon Smithers,5,827.0
-Waylon Smithers,6,526.0
-Waylon Smithers,7,1543.0
-Waylon Smithers,8,849.0
-Waylon Smithers,9,269.0
-Waylon Smithers,10,134.0
-Waylon Smithers,11,62.0
-Waylon Smithers,12,135.0
-Waylon Smithers,13,216.0
-Waylon Smithers,14,120.0
-Waylon Smithers,15,197.0
-Waylon Smithers,16,110.0
-Waylon Smithers,17,148.0
-Waylon Smithers,18,122.0
-Waylon Smithers,19,38.0
-Waylon Smithers,20,127.0
-Waylon Smithers,21,293.0
-Waylon Smithers,22,515.0
-Waylon Smithers,23,197.0
-Waylon Smithers,24,220.0
-Waylon Smithers,25,115.0
-Waylon Smithers,26,372.0
