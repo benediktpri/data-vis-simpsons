@@ -82,7 +82,7 @@ with header_col2:
     st.markdown(
         """
         <div style='text-align: center;'>
-            <h3 style='margin-top: 0px; margin-bottom: 0px; padding-bottom: 0px; white-space: nowrap;'>The Simpsons: Character Words and Sentences</h3>
+            <h3 style='margin-top: 0px; margin-bottom: 0px; padding-bottom: 0px; white-space: nowrap;'>The Simpsons: Character Words and Sentences S1-S25</h3>
             <p style='margin-top: 2px; margin-bottom: 0px; font-size: 16px;'>Data: <a href="https://www.kaggle.com/datasets/prashant111/the-simpsons-dataset" target="_blank">The Simpsons Dataset (Kaggle)</a></p>
             <p style='margin-top: 2px; margin-bottom: 0px; font-size: 16px;'>By Benedikt Prisett & Stijn Diemel</p>
         </div>

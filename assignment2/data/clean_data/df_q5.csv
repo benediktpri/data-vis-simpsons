@@ -546,21 +546,6 @@ Bart Simpson,548,96
 Bart Simpson,549,73
 Bart Simpson,551,24
 Bart Simpson,552,63
-Bart Simpson,553,27
-Bart Simpson,554,47
-Bart Simpson,555,20
-Bart Simpson,556,43
-Bart Simpson,557,4
-Bart Simpson,558,20
-Bart Simpson,559,41
-Bart Simpson,560,4
-Bart Simpson,561,27
-Bart Simpson,562,18
-Bart Simpson,563,59
-Bart Simpson,564,10
-Bart Simpson,565,35
-Bart Simpson,567,3
-Bart Simpson,568,11
 C. Montgomery Burns,1,5
 C. Montgomery Burns,3,28
 C. Montgomery Burns,4,44
@@ -795,16 +780,6 @@ C. Montgomery Burns,536,22
 C. Montgomery Burns,541,23
 C. Montgomery Burns,542,2
 C. Montgomery Burns,548,1
-C. Montgomery Burns,555,9
-C. Montgomery Burns,556,5
-C. Montgomery Burns,557,85
-C. Montgomery Burns,558,1
-C. Montgomery Burns,561,8
-C. Montgomery Burns,563,2
-C. Montgomery Burns,564,71
-C. Montgomery Burns,565,2
-C. Montgomery Burns,566,19
-C. Montgomery Burns,567,46
 Chief Wiggum,3,3
 Chief Wiggum,8,4
 Chief Wiggum,12,16
@@ -1114,17 +1089,6 @@ Chief Wiggum,547,34
 Chief Wiggum,548,1
 Chief Wiggum,551,2
 Chief Wiggum,552,13
-Chief Wiggum,553,5
-Chief Wiggum,555,8
-Chief Wiggum,558,5
-Chief Wiggum,560,5
-Chief Wiggum,561,1
-Chief Wiggum,563,29
-Chief Wiggum,564,2
-Chief Wiggum,565,12
-Chief Wiggum,566,1
-Chief Wiggum,567,9
-Chief Wiggum,568,19
 Grampa Simpson,1,2
 Grampa Simpson,5,39
 Grampa Simpson,8,2
@@ -1384,14 +1348,6 @@ Grampa Simpson,544,25
 Grampa Simpson,548,3
 Grampa Simpson,551,11
 Grampa Simpson,552,18
-Grampa Simpson,555,5
-Grampa Simpson,556,1
-Grampa Simpson,561,5
-Grampa Simpson,562,3
-Grampa Simpson,563,5
-Grampa Simpson,564,1
-Grampa Simpson,565,3
-Grampa Simpson,566,5
 Homer Simpson,1,211
 Homer Simpson,2,90
 Homer Simpson,3,126
@@ -1940,22 +1896,6 @@ Homer Simpson,548,66
 Homer Simpson,549,75
 Homer Simpson,551,57
 Homer Simpson,552,49
-Homer Simpson,553,23
-Homer Simpson,554,87
-Homer Simpson,555,69
-Homer Simpson,556,79
-Homer Simpson,557,102
-Homer Simpson,558,74
-Homer Simpson,559,77
-Homer Simpson,560,122
-Homer Simpson,561,100
-Homer Simpson,562,109
-Homer Simpson,563,163
-Homer Simpson,564,108
-Homer Simpson,565,103
-Homer Simpson,566,41
-Homer Simpson,567,67
-Homer Simpson,568,47
 Kent Brockman,12,14
 Kent Brockman,20,20
 Kent Brockman,22,6
@@ -2185,11 +2125,6 @@ Kent Brockman,534,11
 Kent Brockman,538,7
 Kent Brockman,545,3
 Kent Brockman,547,9
-Kent Brockman,553,11
-Kent Brockman,557,4
-Kent Brockman,558,2
-Kent Brockman,560,6
-Kent Brockman,564,6
 Krusty the Clown,8,8
 Krusty the Clown,12,57
 Krusty the Clown,22,26
@@ -2427,11 +2362,6 @@ Krusty the Clown,543,1
 Krusty the Clown,546,3
 Krusty the Clown,548,2
 Krusty the Clown,552,1
-Krusty the Clown,553,139
-Krusty the Clown,555,8
-Krusty the Clown,558,1
-Krusty the Clown,563,1
-Krusty the Clown,566,1
 Lisa Simpson,1,26
 Lisa Simpson,2,19
 Lisa Simpson,3,13
@@ -2979,22 +2909,6 @@ Lisa Simpson,548,32
 Lisa Simpson,549,4
 Lisa Simpson,551,49
 Lisa Simpson,552,30
-Lisa Simpson,553,18
-Lisa Simpson,554,11
-Lisa Simpson,555,16
-Lisa Simpson,556,36
-Lisa Simpson,557,24
-Lisa Simpson,558,31
-Lisa Simpson,559,21
-Lisa Simpson,560,12
-Lisa Simpson,561,14
-Lisa Simpson,562,48
-Lisa Simpson,563,15
-Lisa Simpson,564,35
-Lisa Simpson,565,40
-Lisa Simpson,566,2
-Lisa Simpson,567,8
-Lisa Simpson,568,11
 Marge Simpson,1,69
 Marge Simpson,2,34
 Marge Simpson,3,24
@@ -3542,22 +3456,6 @@ Marge Simpson,548,31
 Marge Simpson,549,8
 Marge Simpson,551,84
 Marge Simpson,552,7
-Marge Simpson,553,26
-Marge Simpson,554,30
-Marge Simpson,555,95
-Marge Simpson,556,44
-Marge Simpson,557,27
-Marge Simpson,558,20
-Marge Simpson,559,37
-Marge Simpson,560,26
-Marge Simpson,561,45
-Marge Simpson,562,18
-Marge Simpson,563,39
-Marge Simpson,564,16
-Marge Simpson,565,36
-Marge Simpson,566,43
-Marge Simpson,567,8
-Marge Simpson,568,65
 Milhouse Van Houten,1,3
 Milhouse Van Houten,2,2
 Milhouse Van Houten,5,7
@@ -3878,14 +3776,6 @@ Milhouse Van Houten,548,17
 Milhouse Van Houten,549,12
 Milhouse Van Houten,551,4
 Milhouse Van Houten,552,34
-Milhouse Van Houten,553,2
-Milhouse Van Houten,554,7
-Milhouse Van Houten,558,3
-Milhouse Van Houten,559,33
-Milhouse Van Houten,563,5
-Milhouse Van Houten,564,2
-Milhouse Van Houten,565,12
-Milhouse Van Houten,566,1
 Moe Szyslak,1,4
 Moe Szyslak,3,19
 Moe Szyslak,4,6
@@ -4258,15 +4148,6 @@ Moe Szyslak,545,2
 Moe Szyslak,547,13
 Moe Szyslak,548,17
 Moe Szyslak,549,20
-Moe Szyslak,554,4
-Moe Szyslak,555,7
-Moe Szyslak,557,1
-Moe Szyslak,558,5
-Moe Szyslak,560,10
-Moe Szyslak,561,51
-Moe Szyslak,565,15
-Moe Szyslak,566,91
-Moe Szyslak,567,96
 Ned Flanders,1,13
 Ned Flanders,7,7
 Ned Flanders,19,93
@@ -4547,10 +4428,6 @@ Ned Flanders,543,10
 Ned Flanders,546,1
 Ned Flanders,549,3
 Ned Flanders,551,1
-Ned Flanders,554,4
-Ned Flanders,555,13
-Ned Flanders,561,17
-Ned Flanders,568,11
 Seymour Skinner,1,4
 Seymour Skinner,2,36
 Seymour Skinner,5,18
@@ -4845,9 +4722,3 @@ Seymour Skinner,546,24
 Seymour Skinner,547,14
 Seymour Skinner,549,8
 Seymour Skinner,552,8
-Seymour Skinner,556,7
-Seymour Skinner,557,1
-Seymour Skinner,558,9
-Seymour Skinner,559,11
-Seymour Skinner,561,2
-Seymour Skinner,563,4

@@ -24,7 +24,6 @@ Bart Simpson,22,4392.0
 Bart Simpson,23,4985.0
 Bart Simpson,24,4178.0
 Bart Simpson,25,4505.0
-Bart Simpson,26,2087.0
 C. Montgomery Burns,1,646.0
 C. Montgomery Burns,2,3547.0
 C. Montgomery Burns,3,3250.0
@@ -50,7 +49,6 @@ C. Montgomery Burns,22,944.0
 C. Montgomery Burns,23,945.0
 C. Montgomery Burns,24,1338.0
 C. Montgomery Burns,25,826.0
-C. Montgomery Burns,26,1669.0
 Chief Wiggum,1,132.0
 Chief Wiggum,2,14.0
 Chief Wiggum,3,666.0
@@ -76,7 +74,6 @@ Chief Wiggum,22,463.0
 Chief Wiggum,23,632.0
 Chief Wiggum,24,522.0
 Chief Wiggum,25,643.0
-Chief Wiggum,26,456.0
 Grampa Simpson,1,330.0
 Grampa Simpson,2,1666.0
 Grampa Simpson,3,145.0
@@ -102,7 +99,6 @@ Grampa Simpson,22,899.0
 Grampa Simpson,23,569.0
 Grampa Simpson,24,1834.0
 Grampa Simpson,25,448.0
-Grampa Simpson,26,143.0
 Homer Simpson,1,8146.0
 Homer Simpson,2,14183.0
 Homer Simpson,3,12199.0
@@ -128,7 +124,6 @@ Homer Simpson,22,7865.0
 Homer Simpson,23,10631.0
 Homer Simpson,24,11359.0
 Homer Simpson,25,9539.0
-Homer Simpson,26,7749.0
 Kent Brockman,1,211.0
 Kent Brockman,2,284.0
 Kent Brockman,3,994.0
@@ -154,7 +149,6 @@ Kent Brockman,22,378.0
 Kent Brockman,23,425.0
 Kent Brockman,24,554.0
 Kent Brockman,25,509.0
-Kent Brockman,26,283.0
 Krusty the Clown,1,374.0
 Krusty the Clown,2,267.0
 Krusty the Clown,3,1217.0
@@ -180,7 +174,6 @@ Krusty the Clown,22,557.0
 Krusty the Clown,23,1230.0
 Krusty the Clown,24,195.0
 Krusty the Clown,25,584.0
-Krusty the Clown,26,781.0
 Lisa Simpson,1,1871.0
 Lisa Simpson,2,3857.0
 Lisa Simpson,3,3995.0
@@ -206,7 +199,6 @@ Lisa Simpson,22,4764.0
 Lisa Simpson,23,4205.0
 Lisa Simpson,24,3425.0
 Lisa Simpson,25,4523.0
-Lisa Simpson,26,2085.0
 Marge Simpson,1,3662.0
 Marge Simpson,2,6391.0
 Marge Simpson,3,5230.0
@@ -232,7 +224,6 @@ Marge Simpson,22,3835.0
 Marge Simpson,23,3938.0
 Marge Simpson,24,5829.0
 Marge Simpson,25,4493.0
-Marge Simpson,26,3483.0
 Milhouse Van Houten,1,105.0
 Milhouse Van Houten,2,274.0
 Milhouse Van Houten,3,487.0
@@ -258,7 +249,6 @@ Milhouse Van Houten,22,811.0
 Milhouse Van Houten,23,685.0
 Milhouse Van Houten,24,1148.0
 Milhouse Van Houten,25,1040.0
-Milhouse Van Houten,26,322.0
 Moe Szyslak,1,444.0
 Moe Szyslak,2,389.0
 Moe Szyslak,3,1212.0
@@ -284,7 +274,6 @@ Moe Szyslak,22,1648.0
 Moe Szyslak,23,847.0
 Moe Szyslak,24,2234.0
 Moe Szyslak,25,822.0
-Moe Szyslak,26,1896.0
 Ned Flanders,1,83.0
 Ned Flanders,2,939.0
 Ned Flanders,3,1041.0
@@ -310,7 +299,6 @@ Ned Flanders,22,856.0
 Ned Flanders,23,1194.0
 Ned Flanders,24,848.0
 Ned Flanders,25,212.0
-Ned Flanders,26,300.0
 Seymour Skinner,1,668.0
 Seymour Skinner,2,806.0
 Seymour Skinner,3,1427.0
@@ -336,4 +324,3 @@ Seymour Skinner,22,1397.0
 Seymour Skinner,23,877.0
 Seymour Skinner,24,890.0
 Seymour Skinner,25,1195.0
-Seymour Skinner,26,202.0

@@ -547,22 +547,6 @@ Bart Simpson,25,18,535.0
 Bart Simpson,25,19,446.0
 Bart Simpson,25,21,158.0
 Bart Simpson,25,22,300.0
-Bart Simpson,26,1,141.0
-Bart Simpson,26,2,282.0
-Bart Simpson,26,3,130.0
-Bart Simpson,26,4,205.0
-Bart Simpson,26,5,25.0
-Bart Simpson,26,6,114.0
-Bart Simpson,26,7,236.0
-Bart Simpson,26,8,23.0
-Bart Simpson,26,9,180.0
-Bart Simpson,26,10,114.0
-Bart Simpson,26,11,307.0
-Bart Simpson,26,12,39.0
-Bart Simpson,26,13,211.0
-Bart Simpson,26,14,0.0
-Bart Simpson,26,15,14.0
-Bart Simpson,26,16,66.0
 C. Montgomery Burns,1,1,45.0
 C. Montgomery Burns,1,2,0.0
 C. Montgomery Burns,1,3,182.0
@@ -1111,22 +1095,6 @@ C. Montgomery Burns,25,18,2.0
 C. Montgomery Burns,25,19,0.0
 C. Montgomery Burns,25,21,0.0
 C. Montgomery Burns,25,22,0.0
-C. Montgomery Burns,26,1,0.0
-C. Montgomery Burns,26,2,0.0
-C. Montgomery Burns,26,3,54.0
-C. Montgomery Burns,26,4,62.0
-C. Montgomery Burns,26,5,622.0
-C. Montgomery Burns,26,6,5.0
-C. Montgomery Burns,26,7,0.0
-C. Montgomery Burns,26,8,0.0
-C. Montgomery Burns,26,9,40.0
-C. Montgomery Burns,26,10,0.0
-C. Montgomery Burns,26,11,7.0
-C. Montgomery Burns,26,12,424.0
-C. Montgomery Burns,26,13,4.0
-C. Montgomery Burns,26,14,106.0
-C. Montgomery Burns,26,15,345.0
-C. Montgomery Burns,26,16,0.0
 Chief Wiggum,1,1,0.0
 Chief Wiggum,1,2,0.0
 Chief Wiggum,1,3,34.0
@@ -1675,22 +1643,6 @@ Chief Wiggum,25,18,4.0
 Chief Wiggum,25,19,0.0
 Chief Wiggum,25,21,10.0
 Chief Wiggum,25,22,53.0
-Chief Wiggum,26,1,28.0
-Chief Wiggum,26,2,0.0
-Chief Wiggum,26,3,35.0
-Chief Wiggum,26,4,0.0
-Chief Wiggum,26,5,0.0
-Chief Wiggum,26,6,23.0
-Chief Wiggum,26,7,0.0
-Chief Wiggum,26,8,19.0
-Chief Wiggum,26,9,11.0
-Chief Wiggum,26,10,0.0
-Chief Wiggum,26,11,140.0
-Chief Wiggum,26,12,12.0
-Chief Wiggum,26,13,52.0
-Chief Wiggum,26,14,4.0
-Chief Wiggum,26,15,53.0
-Chief Wiggum,26,16,79.0
 Grampa Simpson,1,1,4.0
 Grampa Simpson,1,2,0.0
 Grampa Simpson,1,3,0.0
@@ -2239,22 +2191,6 @@ Grampa Simpson,25,18,17.0
 Grampa Simpson,25,19,0.0
 Grampa Simpson,25,21,98.0
 Grampa Simpson,25,22,132.0
-Grampa Simpson,26,1,0.0
-Grampa Simpson,26,2,0.0
-Grampa Simpson,26,3,32.0
-Grampa Simpson,26,4,12.0
-Grampa Simpson,26,5,0.0
-Grampa Simpson,26,6,0.0
-Grampa Simpson,26,7,0.0
-Grampa Simpson,26,8,0.0
-Grampa Simpson,26,9,19.0
-Grampa Simpson,26,10,16.0
-Grampa Simpson,26,11,18.0
-Grampa Simpson,26,12,2.0
-Grampa Simpson,26,13,9.0
-Grampa Simpson,26,14,35.0
-Grampa Simpson,26,15,0.0
-Grampa Simpson,26,16,0.0
 Homer Simpson,1,1,900.0
 Homer Simpson,1,2,543.0
 Homer Simpson,1,3,852.0
@@ -2803,22 +2739,6 @@ Homer Simpson,25,18,274.0
 Homer Simpson,25,19,433.0
 Homer Simpson,25,21,294.0
 Homer Simpson,25,22,285.0
-Homer Simpson,26,1,97.0
-Homer Simpson,26,2,489.0
-Homer Simpson,26,3,328.0
-Homer Simpson,26,4,439.0
-Homer Simpson,26,5,577.0
-Homer Simpson,26,6,375.0
-Homer Simpson,26,7,428.0
-Homer Simpson,26,8,886.0
-Homer Simpson,26,9,501.0
-Homer Simpson,26,10,497.0
-Homer Simpson,26,11,850.0
-Homer Simpson,26,12,641.0
-Homer Simpson,26,13,713.0
-Homer Simpson,26,14,244.0
-Homer Simpson,26,15,374.0
-Homer Simpson,26,16,310.0
 Kent Brockman,1,1,0.0
 Kent Brockman,1,2,0.0
 Kent Brockman,1,3,0.0
@@ -3367,22 +3287,6 @@ Kent Brockman,25,18,0.0
 Kent Brockman,25,19,0.0
 Kent Brockman,25,21,0.0
 Kent Brockman,25,22,0.0
-Kent Brockman,26,1,82.0
-Kent Brockman,26,2,0.0
-Kent Brockman,26,3,0.0
-Kent Brockman,26,4,0.0
-Kent Brockman,26,5,23.0
-Kent Brockman,26,6,33.0
-Kent Brockman,26,7,0.0
-Kent Brockman,26,8,80.0
-Kent Brockman,26,9,0.0
-Kent Brockman,26,10,0.0
-Kent Brockman,26,11,0.0
-Kent Brockman,26,12,65.0
-Kent Brockman,26,13,0.0
-Kent Brockman,26,14,0.0
-Kent Brockman,26,15,0.0
-Kent Brockman,26,16,0.0
 Krusty the Clown,1,1,0.0
 Krusty the Clown,1,2,0.0
 Krusty the Clown,1,3,0.0
@@ -3931,22 +3835,6 @@ Krusty the Clown,25,18,17.0
 Krusty the Clown,25,19,0.0
 Krusty the Clown,25,21,0.0
 Krusty the Clown,25,22,4.0
-Krusty the Clown,26,1,723.0
-Krusty the Clown,26,2,0.0
-Krusty the Clown,26,3,44.0
-Krusty the Clown,26,4,0.0
-Krusty the Clown,26,5,0.0
-Krusty the Clown,26,6,6.0
-Krusty the Clown,26,7,0.0
-Krusty the Clown,26,8,0.0
-Krusty the Clown,26,9,0.0
-Krusty the Clown,26,10,0.0
-Krusty the Clown,26,11,5.0
-Krusty the Clown,26,12,0.0
-Krusty the Clown,26,13,0.0
-Krusty the Clown,26,14,3.0
-Krusty the Clown,26,15,0.0
-Krusty the Clown,26,16,0.0
 Lisa Simpson,1,1,222.0
 Lisa Simpson,1,2,71.0
 Lisa Simpson,1,3,54.0
@@ -4495,22 +4383,6 @@ Lisa Simpson,25,18,194.0
 Lisa Simpson,25,19,16.0
 Lisa Simpson,25,21,284.0
 Lisa Simpson,25,22,311.0
-Lisa Simpson,26,1,111.0
-Lisa Simpson,26,2,109.0
-Lisa Simpson,26,3,104.0
-Lisa Simpson,26,4,149.0
-Lisa Simpson,26,5,132.0
-Lisa Simpson,26,6,207.0
-Lisa Simpson,26,7,73.0
-Lisa Simpson,26,8,73.0
-Lisa Simpson,26,9,115.0
-Lisa Simpson,26,10,274.0
-Lisa Simpson,26,11,105.0
-Lisa Simpson,26,12,259.0
-Lisa Simpson,26,13,221.0
-Lisa Simpson,26,14,10.0
-Lisa Simpson,26,15,49.0
-Lisa Simpson,26,16,94.0
 Marge Simpson,1,1,373.0
 Marge Simpson,1,2,173.0
 Marge Simpson,1,3,137.0
@@ -5059,22 +4931,6 @@ Marge Simpson,25,18,210.0
 Marge Simpson,25,19,63.0
 Marge Simpson,25,21,427.0
 Marge Simpson,25,22,36.0
-Marge Simpson,26,1,131.0
-Marge Simpson,26,2,209.0
-Marge Simpson,26,3,591.0
-Marge Simpson,26,4,259.0
-Marge Simpson,26,5,142.0
-Marge Simpson,26,6,102.0
-Marge Simpson,26,7,238.0
-Marge Simpson,26,8,166.0
-Marge Simpson,26,9,280.0
-Marge Simpson,26,10,96.0
-Marge Simpson,26,11,233.0
-Marge Simpson,26,12,90.0
-Marge Simpson,26,13,236.0
-Marge Simpson,26,14,228.0
-Marge Simpson,26,15,32.0
-Marge Simpson,26,16,450.0
 Milhouse Van Houten,1,1,19.0
 Milhouse Van Houten,1,2,9.0
 Milhouse Van Houten,1,3,0.0
@@ -5623,22 +5479,6 @@ Milhouse Van Houten,25,18,87.0
 Milhouse Van Houten,25,19,52.0
 Milhouse Van Houten,25,21,12.0
 Milhouse Van Houten,25,22,190.0
-Milhouse Van Houten,26,1,5.0
-Milhouse Van Houten,26,2,24.0
-Milhouse Van Houten,26,3,0.0
-Milhouse Van Houten,26,4,0.0
-Milhouse Van Houten,26,5,0.0
-Milhouse Van Houten,26,6,14.0
-Milhouse Van Houten,26,7,178.0
-Milhouse Van Houten,26,8,0.0
-Milhouse Van Houten,26,9,0.0
-Milhouse Van Houten,26,10,0.0
-Milhouse Van Houten,26,11,21.0
-Milhouse Van Houten,26,12,5.0
-Milhouse Van Houten,26,13,64.0
-Milhouse Van Houten,26,14,11.0
-Milhouse Van Houten,26,15,0.0
-Milhouse Van Houten,26,16,0.0
 Moe Szyslak,1,1,26.0
 Moe Szyslak,1,2,0.0
 Moe Szyslak,1,3,80.0
@@ -6187,22 +6027,6 @@ Moe Szyslak,25,18,115.0
 Moe Szyslak,25,19,167.0
 Moe Szyslak,25,21,0.0
 Moe Szyslak,25,22,0.0
-Moe Szyslak,26,1,0.0
-Moe Szyslak,26,2,12.0
-Moe Szyslak,26,3,53.0
-Moe Szyslak,26,4,0.0
-Moe Szyslak,26,5,11.0
-Moe Szyslak,26,6,32.0
-Moe Szyslak,26,7,0.0
-Moe Szyslak,26,8,69.0
-Moe Szyslak,26,9,295.0
-Moe Szyslak,26,10,0.0
-Moe Szyslak,26,11,0.0
-Moe Szyslak,26,12,0.0
-Moe Szyslak,26,13,111.0
-Moe Szyslak,26,14,657.0
-Moe Szyslak,26,15,656.0
-Moe Szyslak,26,16,0.0
 Ned Flanders,1,1,56.0
 Ned Flanders,1,2,0.0
 Ned Flanders,1,3,0.0
@@ -6751,22 +6575,6 @@ Ned Flanders,25,18,0.0
 Ned Flanders,25,19,13.0
 Ned Flanders,25,21,5.0
 Ned Flanders,25,22,0.0
-Ned Flanders,26,1,0.0
-Ned Flanders,26,2,20.0
-Ned Flanders,26,3,84.0
-Ned Flanders,26,4,0.0
-Ned Flanders,26,5,0.0
-Ned Flanders,26,6,0.0
-Ned Flanders,26,7,0.0
-Ned Flanders,26,8,0.0
-Ned Flanders,26,9,114.0
-Ned Flanders,26,10,0.0
-Ned Flanders,26,11,0.0
-Ned Flanders,26,12,0.0
-Ned Flanders,26,13,0.0
-Ned Flanders,26,14,0.0
-Ned Flanders,26,15,0.0
-Ned Flanders,26,16,82.0
 Seymour Skinner,1,1,47.0
 Seymour Skinner,1,2,174.0
 Seymour Skinner,1,3,0.0
@@ -7315,19 +7123,3 @@ Seymour Skinner,25,18,0.0
 Seymour Skinner,25,19,52.0
 Seymour Skinner,25,21,0.0
 Seymour Skinner,25,22,56.0
-Seymour Skinner,26,1,0.0
-Seymour Skinner,26,2,0.0
-Seymour Skinner,26,3,0.0
-Seymour Skinner,26,4,47.0
-Seymour Skinner,26,5,8.0
-Seymour Skinner,26,6,46.0
-Seymour Skinner,26,7,52.0
-Seymour Skinner,26,8,0.0
-Seymour Skinner,26,9,14.0
-Seymour Skinner,26,10,0.0
-Seymour Skinner,26,11,35.0
-Seymour Skinner,26,12,0.0
-Seymour Skinner,26,13,0.0
-Seymour Skinner,26,14,0.0
-Seymour Skinner,26,15,0.0
-Seymour Skinner,26,16,0.0
