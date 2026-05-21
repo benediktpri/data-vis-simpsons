@@ -181,29 +181,37 @@ line_chart = alt.Chart(df_q2_filtered).mark_line(
     tooltip=['character_names', 'season', 'word_count']
 ).properties(height=300, title='Word Count Over Seasons') # Height reduced to 250px for a smaller second row
 
-# --- Q3: Bar Chart per Episode ---
+# --- Q3: Butterfly Chart per episode ---
 df_q3_filtered = df_q3[(df_q3['season'] == season) & (df_q3['character_names'].isin([char1, char2]))]
-bar_chart_q3 = alt.Chart(df_q3_filtered).mark_bar().encode(
+
+butterfly_chart_q3 = alt.Chart(df_q3_filtered).mark_bar().encode(
     x=alt.X('number_in_season:O', title='Episode Number', axis=alt.Axis(labelAngle=0)),
-    xOffset='character_names:N',
-    y=alt.Y('word_count:Q', title='Total Word Count'),
+    y=alt.Y('signed_word_count:Q', title='Total Word Count', axis=alt.Axis(labelExpr='abs(datum.value)')),
     color=alt.Color('character_names:N', title='Character', scale=char_color_scale, legend=None),
     tooltip=['character_names', 'season', 'number_in_season', 'word_count']
-).properties(height=350, title=f'Word Count per Episode (S{season})')
+).transform_calculate(
+    signed_word_count=f"datum.character_names == '{char2}' ? -datum.word_count : datum.word_count"
+).properties(
+    height=350,
+    title=f'Word Count Comparison per Episode (S{season})'
+)
 
-# --- Q4: Bar Chart per Minute ---
+# --- Q4: Butterfly Chart per Minute ---
 df_q4_filtered = df_q4[(df_q4['season'] == season) &
                        (df_q4['number_in_season'] == episode) &
                        (df_q4['character_names'].isin([char1, char2]))]
-bar_chart_q4 = alt.Chart(df_q4_filtered).mark_bar().encode(
-    x=alt.X('timestamp_in_min:O', title='Minute of Episode', axis=alt.Axis(labelAngle=-45, labelOverlap=True)),
-    xOffset='character_names:N',
-    y=alt.Y('word_count:Q', title='Total Word Count'),
+
+butterfly_chart_q4 = alt.Chart(df_q4_filtered).mark_bar().encode(
+    x=alt.X('timestamp_in_min:O', title='Minute of Episode', axis=alt.Axis(labelAngle=0, labelOverlap=True)),
+    y=alt.Y('signed_word_count:Q', title='Total Word Count', axis=alt.Axis(labelExpr='abs(datum.value)')),
     color=alt.Color('character_names:N', title='Character', scale=char_color_scale, legend=None),
     tooltip=['character_names', 'season', 'number_in_season', 'timestamp_in_min', 'word_count']
-).properties(height=350, title=f'Word Count per Min (S{season}, E{episode})')
-
-
+).transform_calculate(
+    signed_word_count=f"datum.character_names == '{char2}' ? -datum.word_count : datum.word_count"
+).properties(
+    height=350,
+    title=f'Word Count Comparison per Min (S{season}, E{episode})'
+)
 # ==========================================
 # Layout the Charts (Exactly 3 Rows)
 # ==========================================
@@ -221,6 +229,7 @@ st.altair_chart(line_chart, width="stretch", theme=None)
 # Row 3 (2 Columns)
 row3_col1, row3_col2 = st.columns(2, gap="medium")
 with row3_col1:
-    st.altair_chart(bar_chart_q3, width="stretch", theme=None)
+    st.altair_chart(butterfly_chart_q3, use_container_width=True, theme=None)
 with row3_col2:
-    st.altair_chart(bar_chart_q4, width="stretch", theme=None)
+    st.altair_chart(butterfly_chart_q4, use_container_width=True, theme=None)
+
