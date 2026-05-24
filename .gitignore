@@ -212,3 +212,9 @@ __marimo__/
 .idea/data-vis-simpsons.iml
 .idea/data-vis-simpsons.iml
 /.idea
+
+# Final submission folders
+benedikt-prisett_stijn-diemel*
+
+# Local-only working notebooks and intermediate data
+assignment2/other/
