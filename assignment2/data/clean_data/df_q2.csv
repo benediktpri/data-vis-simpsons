@@ -1,326 +1,326 @@
-character_names,season,word_count
-Bart Simpson,1,4868.0
-Bart Simpson,2,5679.0
-Bart Simpson,3,6253.0
-Bart Simpson,4,4208.0
-Bart Simpson,5,4287.0
-Bart Simpson,6,6202.0
-Bart Simpson,7,5496.0
-Bart Simpson,8,4683.0
-Bart Simpson,9,5270.0
-Bart Simpson,10,3543.0
-Bart Simpson,11,4210.0
-Bart Simpson,12,2883.0
-Bart Simpson,13,3061.0
-Bart Simpson,14,3697.0
-Bart Simpson,15,4029.0
-Bart Simpson,16,3819.0
-Bart Simpson,17,3294.0
-Bart Simpson,18,3998.0
-Bart Simpson,19,3822.0
-Bart Simpson,20,3291.0
-Bart Simpson,21,4897.0
-Bart Simpson,22,4392.0
-Bart Simpson,23,4985.0
-Bart Simpson,24,4178.0
-Bart Simpson,25,4505.0
-C. Montgomery Burns,1,646.0
-C. Montgomery Burns,2,3547.0
-C. Montgomery Burns,3,3250.0
-C. Montgomery Burns,4,1432.0
-C. Montgomery Burns,5,2528.0
-C. Montgomery Burns,6,1591.0
-C. Montgomery Burns,7,2827.0
-C. Montgomery Burns,8,3134.0
-C. Montgomery Burns,9,914.0
-C. Montgomery Burns,10,1112.0
-C. Montgomery Burns,11,557.0
-C. Montgomery Burns,12,637.0
-C. Montgomery Burns,13,1605.0
-C. Montgomery Burns,14,683.0
-C. Montgomery Burns,15,1233.0
-C. Montgomery Burns,16,919.0
-C. Montgomery Burns,17,1327.0
-C. Montgomery Burns,18,476.0
-C. Montgomery Burns,19,496.0
-C. Montgomery Burns,20,1003.0
-C. Montgomery Burns,21,1458.0
-C. Montgomery Burns,22,944.0
-C. Montgomery Burns,23,945.0
-C. Montgomery Burns,24,1338.0
-C. Montgomery Burns,25,826.0
-Chief Wiggum,1,132.0
-Chief Wiggum,2,14.0
-Chief Wiggum,3,666.0
-Chief Wiggum,4,648.0
-Chief Wiggum,5,885.0
-Chief Wiggum,6,747.0
-Chief Wiggum,7,1065.0
-Chief Wiggum,8,1647.0
-Chief Wiggum,9,957.0
-Chief Wiggum,10,1389.0
-Chief Wiggum,11,782.0
-Chief Wiggum,12,1087.0
-Chief Wiggum,13,1118.0
-Chief Wiggum,14,983.0
-Chief Wiggum,15,951.0
-Chief Wiggum,16,1433.0
-Chief Wiggum,17,567.0
-Chief Wiggum,18,687.0
-Chief Wiggum,19,598.0
-Chief Wiggum,20,277.0
-Chief Wiggum,21,1388.0
-Chief Wiggum,22,463.0
-Chief Wiggum,23,632.0
-Chief Wiggum,24,522.0
-Chief Wiggum,25,643.0
-Grampa Simpson,1,330.0
-Grampa Simpson,2,1666.0
-Grampa Simpson,3,145.0
-Grampa Simpson,4,1271.0
-Grampa Simpson,5,1690.0
-Grampa Simpson,6,1274.0
-Grampa Simpson,7,1607.0
-Grampa Simpson,8,578.0
-Grampa Simpson,9,686.0
-Grampa Simpson,10,694.0
-Grampa Simpson,11,56.0
-Grampa Simpson,12,293.0
-Grampa Simpson,13,1064.0
-Grampa Simpson,14,223.0
-Grampa Simpson,15,548.0
-Grampa Simpson,16,337.0
-Grampa Simpson,17,1265.0
-Grampa Simpson,18,879.0
-Grampa Simpson,19,342.0
-Grampa Simpson,20,552.0
-Grampa Simpson,21,962.0
-Grampa Simpson,22,899.0
-Grampa Simpson,23,569.0
-Grampa Simpson,24,1834.0
-Grampa Simpson,25,448.0
-Homer Simpson,1,8146.0
-Homer Simpson,2,14183.0
-Homer Simpson,3,12199.0
-Homer Simpson,4,9459.0
-Homer Simpson,5,11690.0
-Homer Simpson,6,11750.0
-Homer Simpson,7,9611.0
-Homer Simpson,8,10321.0
-Homer Simpson,9,13263.0
-Homer Simpson,10,15218.0
-Homer Simpson,11,12723.0
-Homer Simpson,12,10532.0
-Homer Simpson,13,10082.0
-Homer Simpson,14,11779.0
-Homer Simpson,15,10970.0
-Homer Simpson,16,10992.0
-Homer Simpson,17,9714.0
-Homer Simpson,18,9206.0
-Homer Simpson,19,9498.0
-Homer Simpson,20,9583.0
-Homer Simpson,21,8144.0
-Homer Simpson,22,7865.0
-Homer Simpson,23,10631.0
-Homer Simpson,24,11359.0
-Homer Simpson,25,9539.0
-Kent Brockman,1,211.0
-Kent Brockman,2,284.0
-Kent Brockman,3,994.0
-Kent Brockman,4,981.0
-Kent Brockman,5,1278.0
-Kent Brockman,6,597.0
-Kent Brockman,7,550.0
-Kent Brockman,8,1077.0
-Kent Brockman,9,1045.0
-Kent Brockman,10,682.0
-Kent Brockman,11,585.0
-Kent Brockman,12,924.0
-Kent Brockman,13,399.0
-Kent Brockman,14,518.0
-Kent Brockman,15,995.0
-Kent Brockman,16,593.0
-Kent Brockman,17,651.0
-Kent Brockman,18,667.0
-Kent Brockman,19,455.0
-Kent Brockman,20,209.0
-Kent Brockman,21,254.0
-Kent Brockman,22,378.0
-Kent Brockman,23,425.0
-Kent Brockman,24,554.0
-Kent Brockman,25,509.0
-Krusty the Clown,1,374.0
-Krusty the Clown,2,267.0
-Krusty the Clown,3,1217.0
-Krusty the Clown,4,1865.0
-Krusty the Clown,5,635.0
-Krusty the Clown,6,973.0
-Krusty the Clown,7,1257.0
-Krusty the Clown,8,685.0
-Krusty the Clown,9,1333.0
-Krusty the Clown,10,311.0
-Krusty the Clown,11,431.0
-Krusty the Clown,12,1836.0
-Krusty the Clown,13,523.0
-Krusty the Clown,14,1052.0
-Krusty the Clown,15,858.0
-Krusty the Clown,16,665.0
-Krusty the Clown,17,450.0
-Krusty the Clown,18,978.0
-Krusty the Clown,19,1144.0
-Krusty the Clown,20,198.0
-Krusty the Clown,21,885.0
-Krusty the Clown,22,557.0
-Krusty the Clown,23,1230.0
-Krusty the Clown,24,195.0
-Krusty the Clown,25,584.0
-Lisa Simpson,1,1871.0
-Lisa Simpson,2,3857.0
-Lisa Simpson,3,3995.0
-Lisa Simpson,4,2916.0
-Lisa Simpson,5,3063.0
-Lisa Simpson,6,5331.0
-Lisa Simpson,7,5260.0
-Lisa Simpson,8,4444.0
-Lisa Simpson,9,5063.0
-Lisa Simpson,10,4629.0
-Lisa Simpson,11,3947.0
-Lisa Simpson,12,3360.0
-Lisa Simpson,13,3236.0
-Lisa Simpson,14,3929.0
-Lisa Simpson,15,4806.0
-Lisa Simpson,16,3854.0
-Lisa Simpson,17,3618.0
-Lisa Simpson,18,3395.0
-Lisa Simpson,19,3385.0
-Lisa Simpson,20,4277.0
-Lisa Simpson,21,3870.0
-Lisa Simpson,22,4764.0
-Lisa Simpson,23,4205.0
-Lisa Simpson,24,3425.0
-Lisa Simpson,25,4523.0
-Marge Simpson,1,3662.0
-Marge Simpson,2,6391.0
-Marge Simpson,3,5230.0
-Marge Simpson,4,4147.0
-Marge Simpson,5,3676.0
-Marge Simpson,6,6616.0
-Marge Simpson,7,4754.0
-Marge Simpson,8,5777.0
-Marge Simpson,9,5628.0
-Marge Simpson,10,5411.0
-Marge Simpson,11,4869.0
-Marge Simpson,12,3465.0
-Marge Simpson,13,5084.0
-Marge Simpson,14,5190.0
-Marge Simpson,15,5659.0
-Marge Simpson,16,6073.0
-Marge Simpson,17,5943.0
-Marge Simpson,18,4887.0
-Marge Simpson,19,4396.0
-Marge Simpson,20,4245.0
-Marge Simpson,21,3838.0
-Marge Simpson,22,3835.0
-Marge Simpson,23,3938.0
-Marge Simpson,24,5829.0
-Marge Simpson,25,4493.0
-Milhouse Van Houten,1,105.0
-Milhouse Van Houten,2,274.0
-Milhouse Van Houten,3,487.0
-Milhouse Van Houten,4,124.0
-Milhouse Van Houten,5,479.0
-Milhouse Van Houten,6,741.0
-Milhouse Van Houten,7,1188.0
-Milhouse Van Houten,8,467.0
-Milhouse Van Houten,9,493.0
-Milhouse Van Houten,10,393.0
-Milhouse Van Houten,11,457.0
-Milhouse Van Houten,12,673.0
-Milhouse Van Houten,13,471.0
-Milhouse Van Houten,14,664.0
-Milhouse Van Houten,15,762.0
-Milhouse Van Houten,16,556.0
-Milhouse Van Houten,17,886.0
-Milhouse Van Houten,18,534.0
-Milhouse Van Houten,19,636.0
-Milhouse Van Houten,20,591.0
-Milhouse Van Houten,21,600.0
-Milhouse Van Houten,22,811.0
-Milhouse Van Houten,23,685.0
-Milhouse Van Houten,24,1148.0
-Milhouse Van Houten,25,1040.0
-Moe Szyslak,1,444.0
-Moe Szyslak,2,389.0
-Moe Szyslak,3,1212.0
-Moe Szyslak,4,376.0
-Moe Szyslak,5,576.0
-Moe Szyslak,6,1013.0
-Moe Szyslak,7,1322.0
-Moe Szyslak,8,1866.0
-Moe Szyslak,9,2218.0
-Moe Szyslak,10,856.0
-Moe Szyslak,11,1671.0
-Moe Szyslak,12,690.0
-Moe Szyslak,13,1861.0
-Moe Szyslak,14,1974.0
-Moe Szyslak,15,833.0
-Moe Szyslak,16,1206.0
-Moe Szyslak,17,1649.0
-Moe Szyslak,18,1842.0
-Moe Szyslak,19,603.0
-Moe Szyslak,20,1743.0
-Moe Szyslak,21,2154.0
-Moe Szyslak,22,1648.0
-Moe Szyslak,23,847.0
-Moe Szyslak,24,2234.0
-Moe Szyslak,25,822.0
-Ned Flanders,1,83.0
-Ned Flanders,2,939.0
-Ned Flanders,3,1041.0
-Ned Flanders,4,611.0
-Ned Flanders,5,1254.0
-Ned Flanders,6,714.0
-Ned Flanders,7,908.0
-Ned Flanders,8,1526.0
-Ned Flanders,9,1047.0
-Ned Flanders,10,1241.0
-Ned Flanders,11,1122.0
-Ned Flanders,12,1206.0
-Ned Flanders,13,476.0
-Ned Flanders,14,1579.0
-Ned Flanders,15,483.0
-Ned Flanders,16,1565.0
-Ned Flanders,17,941.0
-Ned Flanders,18,316.0
-Ned Flanders,19,402.0
-Ned Flanders,20,1259.0
-Ned Flanders,21,1158.0
-Ned Flanders,22,856.0
-Ned Flanders,23,1194.0
-Ned Flanders,24,848.0
-Ned Flanders,25,212.0
-Seymour Skinner,1,668.0
-Seymour Skinner,2,806.0
-Seymour Skinner,3,1427.0
-Seymour Skinner,4,849.0
-Seymour Skinner,5,1626.0
-Seymour Skinner,6,2368.0
-Seymour Skinner,7,1064.0
-Seymour Skinner,8,1756.0
-Seymour Skinner,9,1297.0
-Seymour Skinner,10,1761.0
-Seymour Skinner,11,749.0
-Seymour Skinner,12,1262.0
-Seymour Skinner,13,659.0
-Seymour Skinner,14,1293.0
-Seymour Skinner,15,1237.0
-Seymour Skinner,16,733.0
-Seymour Skinner,17,1037.0
-Seymour Skinner,18,959.0
-Seymour Skinner,19,884.0
-Seymour Skinner,20,1185.0
-Seymour Skinner,21,744.0
-Seymour Skinner,22,1397.0
-Seymour Skinner,23,877.0
-Seymour Skinner,24,890.0
-Seymour Skinner,25,1195.0
+character_names,season,word_count,sentence_count
+Bart Simpson,1,4868.0,1065
+Bart Simpson,2,5679.0,1259
+Bart Simpson,3,6253.0,1197
+Bart Simpson,4,4208.0,850
+Bart Simpson,5,4287.0,830
+Bart Simpson,6,6202.0,1139
+Bart Simpson,7,5496.0,955
+Bart Simpson,8,4683.0,909
+Bart Simpson,9,5270.0,1121
+Bart Simpson,10,3543.0,734
+Bart Simpson,11,4210.0,866
+Bart Simpson,12,2883.0,607
+Bart Simpson,13,3061.0,613
+Bart Simpson,14,3697.0,643
+Bart Simpson,15,4029.0,750
+Bart Simpson,16,3819.0,688
+Bart Simpson,17,3294.0,543
+Bart Simpson,18,3998.0,710
+Bart Simpson,19,3822.0,676
+Bart Simpson,20,3291.0,592
+Bart Simpson,21,4897.0,890
+Bart Simpson,22,4392.0,764
+Bart Simpson,23,4985.0,801
+Bart Simpson,24,4178.0,686
+Bart Simpson,25,4505.0,796
+C. Montgomery Burns,1,646.0,114
+C. Montgomery Burns,2,3547.0,580
+C. Montgomery Burns,3,3250.0,538
+C. Montgomery Burns,4,1432.0,230
+C. Montgomery Burns,5,2528.0,456
+C. Montgomery Burns,6,1591.0,270
+C. Montgomery Burns,7,2827.0,496
+C. Montgomery Burns,8,3134.0,490
+C. Montgomery Burns,9,914.0,145
+C. Montgomery Burns,10,1112.0,203
+C. Montgomery Burns,11,557.0,101
+C. Montgomery Burns,12,637.0,120
+C. Montgomery Burns,13,1605.0,290
+C. Montgomery Burns,14,683.0,102
+C. Montgomery Burns,15,1233.0,194
+C. Montgomery Burns,16,919.0,148
+C. Montgomery Burns,17,1327.0,202
+C. Montgomery Burns,18,476.0,73
+C. Montgomery Burns,19,496.0,91
+C. Montgomery Burns,20,1003.0,153
+C. Montgomery Burns,21,1458.0,217
+C. Montgomery Burns,22,944.0,176
+C. Montgomery Burns,23,945.0,149
+C. Montgomery Burns,24,1338.0,187
+C. Montgomery Burns,25,826.0,142
+Chief Wiggum,1,132.0,23
+Chief Wiggum,2,14.0,2
+Chief Wiggum,3,666.0,109
+Chief Wiggum,4,648.0,142
+Chief Wiggum,5,885.0,161
+Chief Wiggum,6,747.0,116
+Chief Wiggum,7,1065.0,206
+Chief Wiggum,8,1647.0,261
+Chief Wiggum,9,957.0,180
+Chief Wiggum,10,1389.0,244
+Chief Wiggum,11,782.0,134
+Chief Wiggum,12,1087.0,189
+Chief Wiggum,13,1118.0,188
+Chief Wiggum,14,983.0,157
+Chief Wiggum,15,951.0,148
+Chief Wiggum,16,1433.0,229
+Chief Wiggum,17,567.0,96
+Chief Wiggum,18,687.0,119
+Chief Wiggum,19,598.0,101
+Chief Wiggum,20,277.0,43
+Chief Wiggum,21,1388.0,222
+Chief Wiggum,22,463.0,81
+Chief Wiggum,23,632.0,102
+Chief Wiggum,24,522.0,85
+Chief Wiggum,25,643.0,111
+Grampa Simpson,1,330.0,43
+Grampa Simpson,2,1666.0,317
+Grampa Simpson,3,145.0,32
+Grampa Simpson,4,1271.0,220
+Grampa Simpson,5,1690.0,305
+Grampa Simpson,6,1274.0,212
+Grampa Simpson,7,1607.0,251
+Grampa Simpson,8,578.0,106
+Grampa Simpson,9,686.0,115
+Grampa Simpson,10,694.0,132
+Grampa Simpson,11,56.0,12
+Grampa Simpson,12,293.0,55
+Grampa Simpson,13,1064.0,194
+Grampa Simpson,14,223.0,41
+Grampa Simpson,15,548.0,87
+Grampa Simpson,16,337.0,65
+Grampa Simpson,17,1265.0,191
+Grampa Simpson,18,879.0,129
+Grampa Simpson,19,342.0,44
+Grampa Simpson,20,552.0,88
+Grampa Simpson,21,962.0,135
+Grampa Simpson,22,899.0,112
+Grampa Simpson,23,569.0,86
+Grampa Simpson,24,1834.0,277
+Grampa Simpson,25,448.0,65
+Homer Simpson,1,8146.0,1614
+Homer Simpson,2,14183.0,2803
+Homer Simpson,3,12199.0,2408
+Homer Simpson,4,9459.0,1895
+Homer Simpson,5,11690.0,2247
+Homer Simpson,6,11750.0,2067
+Homer Simpson,7,9611.0,1790
+Homer Simpson,8,10321.0,1985
+Homer Simpson,9,13263.0,2647
+Homer Simpson,10,15218.0,2959
+Homer Simpson,11,12723.0,2579
+Homer Simpson,12,10532.0,2134
+Homer Simpson,13,10082.0,1945
+Homer Simpson,14,11779.0,2074
+Homer Simpson,15,10970.0,1887
+Homer Simpson,16,10992.0,1962
+Homer Simpson,17,9714.0,1636
+Homer Simpson,18,9206.0,1584
+Homer Simpson,19,9498.0,1595
+Homer Simpson,20,9583.0,1614
+Homer Simpson,21,8144.0,1399
+Homer Simpson,22,7865.0,1322
+Homer Simpson,23,10631.0,1781
+Homer Simpson,24,11359.0,1877
+Homer Simpson,25,9539.0,1603
+Kent Brockman,1,211.0,14
+Kent Brockman,2,284.0,36
+Kent Brockman,3,994.0,111
+Kent Brockman,4,981.0,117
+Kent Brockman,5,1278.0,121
+Kent Brockman,6,597.0,61
+Kent Brockman,7,550.0,61
+Kent Brockman,8,1077.0,103
+Kent Brockman,9,1045.0,128
+Kent Brockman,10,682.0,59
+Kent Brockman,11,585.0,70
+Kent Brockman,12,924.0,115
+Kent Brockman,13,399.0,37
+Kent Brockman,14,518.0,58
+Kent Brockman,15,995.0,103
+Kent Brockman,16,593.0,64
+Kent Brockman,17,651.0,57
+Kent Brockman,18,667.0,83
+Kent Brockman,19,455.0,39
+Kent Brockman,20,209.0,24
+Kent Brockman,21,254.0,31
+Kent Brockman,22,378.0,30
+Kent Brockman,23,425.0,41
+Kent Brockman,24,554.0,63
+Kent Brockman,25,509.0,69
+Krusty the Clown,1,374.0,65
+Krusty the Clown,2,267.0,51
+Krusty the Clown,3,1217.0,214
+Krusty the Clown,4,1865.0,329
+Krusty the Clown,5,635.0,120
+Krusty the Clown,6,973.0,156
+Krusty the Clown,7,1257.0,179
+Krusty the Clown,8,685.0,108
+Krusty the Clown,9,1333.0,224
+Krusty the Clown,10,311.0,57
+Krusty the Clown,11,431.0,88
+Krusty the Clown,12,1836.0,313
+Krusty the Clown,13,523.0,83
+Krusty the Clown,14,1052.0,167
+Krusty the Clown,15,858.0,147
+Krusty the Clown,16,665.0,98
+Krusty the Clown,17,450.0,78
+Krusty the Clown,18,978.0,159
+Krusty the Clown,19,1144.0,174
+Krusty the Clown,20,198.0,28
+Krusty the Clown,21,885.0,119
+Krusty the Clown,22,557.0,79
+Krusty the Clown,23,1230.0,216
+Krusty the Clown,24,195.0,36
+Krusty the Clown,25,584.0,85
+Lisa Simpson,1,1871.0,369
+Lisa Simpson,2,3857.0,673
+Lisa Simpson,3,3995.0,637
+Lisa Simpson,4,2916.0,532
+Lisa Simpson,5,3063.0,479
+Lisa Simpson,6,5331.0,890
+Lisa Simpson,7,5260.0,927
+Lisa Simpson,8,4444.0,840
+Lisa Simpson,9,5063.0,928
+Lisa Simpson,10,4629.0,848
+Lisa Simpson,11,3947.0,705
+Lisa Simpson,12,3360.0,670
+Lisa Simpson,13,3236.0,583
+Lisa Simpson,14,3929.0,650
+Lisa Simpson,15,4806.0,758
+Lisa Simpson,16,3854.0,592
+Lisa Simpson,17,3618.0,597
+Lisa Simpson,18,3395.0,592
+Lisa Simpson,19,3385.0,596
+Lisa Simpson,20,4277.0,753
+Lisa Simpson,21,3870.0,652
+Lisa Simpson,22,4764.0,764
+Lisa Simpson,23,4205.0,655
+Lisa Simpson,24,3425.0,573
+Lisa Simpson,25,4523.0,732
+Marge Simpson,1,3662.0,686
+Marge Simpson,2,6391.0,1111
+Marge Simpson,3,5230.0,849
+Marge Simpson,4,4147.0,748
+Marge Simpson,5,3676.0,579
+Marge Simpson,6,6616.0,1075
+Marge Simpson,7,4754.0,798
+Marge Simpson,8,5777.0,937
+Marge Simpson,9,5628.0,986
+Marge Simpson,10,5411.0,974
+Marge Simpson,11,4869.0,848
+Marge Simpson,12,3465.0,663
+Marge Simpson,13,5084.0,893
+Marge Simpson,14,5190.0,842
+Marge Simpson,15,5659.0,890
+Marge Simpson,16,6073.0,918
+Marge Simpson,17,5943.0,964
+Marge Simpson,18,4887.0,786
+Marge Simpson,19,4396.0,689
+Marge Simpson,20,4245.0,699
+Marge Simpson,21,3838.0,639
+Marge Simpson,22,3835.0,643
+Marge Simpson,23,3938.0,624
+Marge Simpson,24,5829.0,924
+Marge Simpson,25,4493.0,735
+Milhouse Van Houten,1,105.0,31
+Milhouse Van Houten,2,274.0,61
+Milhouse Van Houten,3,487.0,96
+Milhouse Van Houten,4,124.0,32
+Milhouse Van Houten,5,479.0,93
+Milhouse Van Houten,6,741.0,131
+Milhouse Van Houten,7,1188.0,260
+Milhouse Van Houten,8,467.0,89
+Milhouse Van Houten,9,493.0,118
+Milhouse Van Houten,10,393.0,94
+Milhouse Van Houten,11,457.0,102
+Milhouse Van Houten,12,673.0,130
+Milhouse Van Houten,13,471.0,91
+Milhouse Van Houten,14,664.0,121
+Milhouse Van Houten,15,762.0,135
+Milhouse Van Houten,16,556.0,108
+Milhouse Van Houten,17,886.0,159
+Milhouse Van Houten,18,534.0,96
+Milhouse Van Houten,19,636.0,111
+Milhouse Van Houten,20,591.0,82
+Milhouse Van Houten,21,600.0,97
+Milhouse Van Houten,22,811.0,139
+Milhouse Van Houten,23,685.0,118
+Milhouse Van Houten,24,1148.0,196
+Milhouse Van Houten,25,1040.0,184
+Moe Szyslak,1,444.0,84
+Moe Szyslak,2,389.0,69
+Moe Szyslak,3,1212.0,226
+Moe Szyslak,4,376.0,83
+Moe Szyslak,5,576.0,104
+Moe Szyslak,6,1013.0,189
+Moe Szyslak,7,1322.0,239
+Moe Szyslak,8,1866.0,311
+Moe Szyslak,9,2218.0,436
+Moe Szyslak,10,856.0,159
+Moe Szyslak,11,1671.0,320
+Moe Szyslak,12,690.0,148
+Moe Szyslak,13,1861.0,326
+Moe Szyslak,14,1974.0,343
+Moe Szyslak,15,833.0,142
+Moe Szyslak,16,1206.0,187
+Moe Szyslak,17,1649.0,224
+Moe Szyslak,18,1842.0,275
+Moe Szyslak,19,603.0,104
+Moe Szyslak,20,1743.0,258
+Moe Szyslak,21,2154.0,317
+Moe Szyslak,22,1648.0,259
+Moe Szyslak,23,847.0,138
+Moe Szyslak,24,2234.0,346
+Moe Szyslak,25,822.0,125
+Ned Flanders,1,83.0,20
+Ned Flanders,2,939.0,149
+Ned Flanders,3,1041.0,144
+Ned Flanders,4,611.0,115
+Ned Flanders,5,1254.0,201
+Ned Flanders,6,714.0,102
+Ned Flanders,7,908.0,162
+Ned Flanders,8,1526.0,252
+Ned Flanders,9,1047.0,175
+Ned Flanders,10,1241.0,191
+Ned Flanders,11,1122.0,196
+Ned Flanders,12,1206.0,203
+Ned Flanders,13,476.0,79
+Ned Flanders,14,1579.0,230
+Ned Flanders,15,483.0,68
+Ned Flanders,16,1565.0,228
+Ned Flanders,17,941.0,128
+Ned Flanders,18,316.0,41
+Ned Flanders,19,402.0,66
+Ned Flanders,20,1259.0,187
+Ned Flanders,21,1158.0,192
+Ned Flanders,22,856.0,119
+Ned Flanders,23,1194.0,160
+Ned Flanders,24,848.0,136
+Ned Flanders,25,212.0,35
+Seymour Skinner,1,668.0,109
+Seymour Skinner,2,806.0,133
+Seymour Skinner,3,1427.0,207
+Seymour Skinner,4,849.0,156
+Seymour Skinner,5,1626.0,277
+Seymour Skinner,6,2368.0,351
+Seymour Skinner,7,1064.0,171
+Seymour Skinner,8,1756.0,279
+Seymour Skinner,9,1297.0,197
+Seymour Skinner,10,1761.0,273
+Seymour Skinner,11,749.0,136
+Seymour Skinner,12,1262.0,221
+Seymour Skinner,13,659.0,101
+Seymour Skinner,14,1293.0,189
+Seymour Skinner,15,1237.0,182
+Seymour Skinner,16,733.0,115
+Seymour Skinner,17,1037.0,155
+Seymour Skinner,18,959.0,165
+Seymour Skinner,19,884.0,123
+Seymour Skinner,20,1185.0,171
+Seymour Skinner,21,744.0,104
+Seymour Skinner,22,1397.0,210
+Seymour Skinner,23,877.0,111
+Seymour Skinner,24,890.0,129
+Seymour Skinner,25,1195.0,196
