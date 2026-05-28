@@ -281,7 +281,7 @@ q2_season_select = alt.selection_point(
 
 q2_base = alt.Chart(df_q2_filtered).encode(
     x=alt.X("season:O", title="Season", axis=alt.Axis(labelAngle=0)),
-    y=alt.Y("word_count:Q", title="Total Word Count"),
+    y=alt.Y(f"{metric_col}:Q", title=f"Total {metric_label}"),
     color=alt.Color(
         "character_names:N", title="Character", scale=char_color_scale, legend=None
     ),
@@ -290,7 +290,7 @@ q2_base = alt.Chart(df_q2_filtered).encode(
 q2_visible = q2_base.mark_line(
     strokeWidth=2,
     point=alt.OverlayMarkDef(filled=True, size=35),
-).encode(tooltip=["character_names", "season", "word_count"])
+).encode(tooltip=["character_names", "season", metric_col])
 
 # Light gray background rectangle marking the selected season
 q2_selected_bg = (
@@ -302,12 +302,12 @@ q2_selected_bg = (
 # Invisible larger hit area to make clicking the line easier
 q2_hit_area = (
     q2_base.mark_point(size=600, opacity=0)
-    .encode(tooltip=["character_names", "season", "word_count"])
+    .encode(tooltip=["character_names", "season", metric_col])
     .add_params(q2_season_select)
 )
 
 line_chart = (q2_visible + q2_selected_bg + q2_hit_area).properties(
-    height=300, title="Word Count Over Seasons"
+    height=300, title=f"{metric_label} Over Seasons"
 )
 
 # --- Q3: Butterfly Chart per episode ---
@@ -316,7 +316,7 @@ df_q3_filtered = df_q3[
 ]
 
 # Symmetric y-domain so both characters share the same visual scale
-q3_max = df_q3_filtered["word_count"].max() if not df_q3_filtered.empty else 0
+q3_max = df_q3_filtered[metric_col].max() if not df_q3_filtered.empty else 0
 
 # Click selection: an episode click on Q3 drives Q4.
 q3_episode_select = alt.selection_point(
@@ -331,18 +331,18 @@ butterfly_chart_q3_bars = (
             "number_in_season:O", title="Episode Number", axis=alt.Axis(labelAngle=0)
         ),
         y=alt.Y(
-            "signed_word_count:Q",
-            title="Word Count",
+            "signed_metric:Q",
+            title=metric_label,
             axis=alt.Axis(labelExpr="abs(datum.value)"),
             scale=alt.Scale(domain=[-q3_max, q3_max]),
         ),
         color=alt.Color(
             "character_names:N", title="Character", scale=char_color_scale, legend=None
         ),
-        tooltip=["character_names", "season", "number_in_season", "word_count"],
+        tooltip=["character_names", "season", "number_in_season", metric_col],
     )
     .transform_calculate(
-        signed_word_count=f"datum.character_names == '{char2}' ? -datum.word_count : datum.word_count"
+        signed_metric=f"datum.character_names == '{char2}' ? -datum.{metric_col} : datum.{metric_col}"
     )
     .add_params(q3_episode_select)
 )
@@ -356,7 +356,7 @@ q3_selected_bg = (
 )
 
 butterfly_chart_q3 = (butterfly_chart_q3_bars + q3_selected_bg).properties(
-    height=350, title=f"Word Count per Episode in Season {season}"
+    height=350, title=f"{metric_label} per Episode in Season {season}"
 )
 
 # --- Q4: Butterfly Chart per Minute ---
@@ -366,7 +366,18 @@ df_q4_filtered = df_q4[
     & (df_q4["character_names"].isin([char1, char2]))
 ]
 
-q4_max = df_q4_filtered["word_count"].max() if not df_q4_filtered.empty else 0
+# df_q4 is at the dialogue-line grain; collapse to one row per (minute, character)
+# so q4_max reflects the actual stacked bar height — otherwise multiple lines in
+# the same minute stack past the y-domain and bars get clipped.
+df_q4_filtered = (
+    df_q4_filtered.groupby(
+        ["character_names", "season", "number_in_season", "timestamp_in_min"],
+        as_index=False,
+    )[[metric_col]]
+    .sum()
+)
+
+q4_max = df_q4_filtered[metric_col].max() if not df_q4_filtered.empty else 0
 
 butterfly_chart_q4 = (
     alt.Chart(df_q4_filtered)
@@ -378,8 +389,8 @@ butterfly_chart_q4 = (
             axis=alt.Axis(labelAngle=0, labelOverlap=True),
         ),
         y=alt.Y(
-            "signed_word_count:Q",
-            title="Word Count",
+            "signed_metric:Q",
+            title=metric_label,
             axis=alt.Axis(labelExpr="abs(datum.value)"),
             scale=alt.Scale(domain=[-q4_max, q4_max]),
         ),
@@ -391,15 +402,15 @@ butterfly_chart_q4 = (
             "season",
             "number_in_season",
             "timestamp_in_min",
-            "word_count",
+            metric_col,
         ],
     )
     .transform_calculate(
-        signed_word_count=f"datum.character_names == '{char2}' ? -datum.word_count : datum.word_count"
+        signed_metric=f"datum.character_names == '{char2}' ? -datum.{metric_col} : datum.{metric_col}"
     )
     .properties(
         height=350,
-        title=f"Word Count per Minute in Season {season}, Episode {episode}",
+        title=f"{metric_label} per Minute in Season {season}, Episode {episode}",
     )
 )
 
