@@ -41,6 +41,23 @@ def apply_pending(state_key: str, options: list) -> None:
         st.session_state[state_key] = options[0]
 
 
+def on_dropdown_change(last_seen_keys: list) -> None:
+    """Mark the chart's persisted selections as acknowledged.
+
+    When the user picks a value from the dropdown we want to ignore whatever the
+    chart is still holding in its widget state. We can't clear the chart's
+    selection (Streamlit doesn't expose a way), so we set a flag that
+    `capture_chart_click` reads on the very next run: any chart selection
+    reported during that run is treated as already-seen, even if its value
+    differs from anything we've recorded. `last_seen_keys` is the list of
+    `last_seen_*` keys that should be silenced for this dropdown change (e.g.
+    a season change should also acknowledge the Q3 chart's episode selection,
+    since that selection was meaningful for the previous season).
+    """
+    for last_seen_key in last_seen_keys:
+        st.session_state[f"acknowledge_next_{last_seen_key}"] = True
+
+
 def capture_chart_click(
     event, selection_name: str, field: str, current, target_state_key: str
 ) -> None:
@@ -49,16 +66,48 @@ def capture_chart_click(
     The click is read from `event.selection`. We write the result to
     `pending_<target_state_key>` so `apply_pending` can adopt it on the next run,
     before the dropdown widget is rendered.
+
+    `st.altair_chart` persists its last selection across reruns, so on every run
+    `event.selection` reports the same value the user clicked previously — even
+    if they didn't interact with the chart this run. To distinguish a fresh
+    click from a stale one we track the last selection we processed in
+    `st.session_state[f"last_seen_{selection_name}"]`. Two safeguards:
+
+    1. Only fire when the chart's reported value differs from `last_seen`.
+       (We also skip when it matches `current`, so a click that re-selects the
+       active dropdown value is a no-op.)
+    2. The dropdown's `on_change` handler sets an "acknowledge_next" flag. On
+       the rerun triggered by the dropdown, we silently absorb whatever the
+       chart is holding into `last_seen` and skip firing — this prevents the
+       chart's stale selection from snapping the dropdown back.
     """
+    last_seen_key = f"last_seen_{selection_name}"
+    ack_key = f"acknowledge_next_{last_seen_key}"
     try:
         points = event.selection.get(selection_name, [])  # type: ignore[union-attr]
-        if points:
-            value = int(points[0][field])
-            if value != current:
-                st.session_state[f"pending_{target_state_key}"] = value
-                st.rerun()
+        value = int(points[0][field]) if points else None
     except (AttributeError, KeyError, IndexError, TypeError, ValueError):
-        pass
+        value = None
+
+    if st.session_state.pop(ack_key, False):
+        # Dropdown was just changed; treat whatever the chart reports as seen.
+        if value is not None:
+            st.session_state[last_seen_key] = value
+        return
+
+    last_seen = st.session_state.get(last_seen_key)
+
+    if value is not None and value != last_seen and value != current:
+        st.session_state[last_seen_key] = value
+        st.session_state[f"pending_{target_state_key}"] = value
+        st.rerun()
+
+    # Sync last_seen to the chart's reported value when it has one — so the
+    # chart's stable selection is treated as acknowledged. Don't overwrite with
+    # None: a transient empty event would otherwise turn the chart's still-
+    # persisted selection into a "new" click on the next run.
+    if value is not None:
+        st.session_state[last_seen_key] = value
 
 
 # --- PAGE CONFIGURATION ---
@@ -149,8 +198,18 @@ char2 = st.sidebar.selectbox(
 )
 
 # Q2 clicks update the season; apply any pending click before the widget renders.
+# `on_change` acknowledges the chart's stale selection so it can't fire on the
+# next run and revert the user's dropdown pick. Picking a new season also
+# implicitly acknowledges the Q3 chart's persisted episode selection — that
+# selection was meaningful for the previous season, not this one.
 apply_pending("season", seasons_list)
-season = st.sidebar.selectbox("Season:", options=seasons_list, key="season")
+season = st.sidebar.selectbox(
+    "Season:",
+    options=seasons_list,
+    key="season",
+    on_change=on_dropdown_change,
+    args=(["last_seen_q2_season", "last_seen_q3_episode"],),
+)
 
 episodes_in_season = sorted(
     df_q4[df_q4["season"] == season]["number_in_season"].unique().tolist()
@@ -158,7 +217,13 @@ episodes_in_season = sorted(
 
 # Q3 clicks update the episode; apply any pending click before the widget renders.
 apply_pending("episode", episodes_in_season)
-episode = st.sidebar.selectbox("Episode:", options=episodes_in_season, key="episode")
+episode = st.sidebar.selectbox(
+    "Episode:",
+    options=episodes_in_season,
+    key="episode",
+    on_change=on_dropdown_change,
+    args=(["last_seen_q3_episode"],),
+)
 
 
 # --- HEADER SECTION ---
@@ -360,22 +425,28 @@ butterfly_chart_q3 = (butterfly_chart_q3_bars + q3_selected_bg).properties(
 )
 
 # --- Q4: Butterfly Chart per Minute ---
+# df_q4 is already at (character, season, episode, minute) grain with zero-filled
+# rows for minutes where a character didn't speak — so missing bars correctly
+# show as empty ticks on the x-axis instead of dropping out of the ordinal scale.
+#
+# 5 episodes in the source Kaggle dataset have corrupted timestamps — every line
+# in the episode shares one timestamp_in_ms value, so all dialogue collapses
+# onto a single minute. We can't recover per-line timing, so we replace the Q4
+# chart with a warning for these episodes.
+BROKEN_TIMESTAMP_EPISODES = {
+    (7, 10),  # The Simpsons 138th Episode Spectacular
+    (7, 12),  # Team Homer
+    (16, 6),  # Midnight Rx
+    (23, 7),  # The Man in the Blue Flannel Pants
+    (23, 19),  # A Totally Fun Thing That Bart Will Never Do Again
+}
+q4_has_broken_timestamps = (season, episode) in BROKEN_TIMESTAMP_EPISODES
+
 df_q4_filtered = df_q4[
     (df_q4["season"] == season)
     & (df_q4["number_in_season"] == episode)
     & (df_q4["character_names"].isin([char1, char2]))
 ]
-
-# df_q4 is at the dialogue-line grain; collapse to one row per (minute, character)
-# so q4_max reflects the actual stacked bar height — otherwise multiple lines in
-# the same minute stack past the y-domain and bars get clipped.
-df_q4_filtered = (
-    df_q4_filtered.groupby(
-        ["character_names", "season", "number_in_season", "timestamp_in_min"],
-        as_index=False,
-    )[[metric_col]]
-    .sum()
-)
 
 q4_max = df_q4_filtered[metric_col].max() if not df_q4_filtered.empty else 0
 
@@ -446,4 +517,28 @@ with row3_col1:
 capture_chart_click(q3_event, "q3_episode", "number_in_season", episode, "episode")
 
 with row3_col2:
-    st.altair_chart(butterfly_chart_q4, width="stretch", theme=None)
+    if q4_has_broken_timestamps:
+        st.markdown(
+            """
+            <div style="height: 350px; display: flex; align-items: center;
+                        justify-content: center; border: 1px dashed #999;
+                        border-radius: 6px; padding: 20px; text-align: center;
+                        color: #555;">
+                <div>
+                    <div style="font-size: 32px; margin-bottom: 8px;">⚠️</div>
+                    <div style="font-size: 16px; font-weight: 500; margin-bottom: 6px;">
+                        Per-minute breakdown unavailable
+                    </div>
+                    <div style="font-size: 13px; max-width: 420px; margin: 0 auto;">
+                        The source dataset is missing per-line timestamps for this
+                        episode, so dialogue cannot be distributed across the
+                        episode's runtime. Pick another episode to see the
+                        per-minute breakdown.
+                    </div>
+                </div>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+    else:
+        st.altair_chart(butterfly_chart_q4, width="stretch", theme=None)
