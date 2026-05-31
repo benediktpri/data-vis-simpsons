@@ -1,10 +1,11 @@
-# The Simpsons: Who Talks the Most?
+# The Simpsons: Character Dialogue Across Seasons 1-25
 
 Assignment 2 for the Data Visualization course. Interactive visual analytics tool exploring how the main characters of *The Simpsons* speak across episodes — words and sentences per character, evolution across seasons, and within-episode dynamics.
 
 **Key files:**
 - [`02_cleaning.ipynb`](02_cleaning.ipynb) -- Data cleaning steps (reproducible)
 - [`03_visualization.ipynb`](03_visualization.ipynb) -- All chart designs, iterations, and written explanations per question
+- [`03_visualization.pdf`](03_visualization.pdf) -- PDF export of the visualization notebook
 - [`streamlit/app.py`](streamlit/app.py) -- Final multi-view dashboard
 
 ## Research Questions
@@ -56,6 +57,7 @@ assignment2/
 ├── 01_exploration.ipynb        # Data exploration & quality assessment
 ├── 02_cleaning.ipynb           # Data cleaning (reproducible steps)
 ├── 03_visualization.ipynb      # Design iterations & final charts per question
+├── 03_visualization.pdf        # PDF export of the visualization notebook
 ├── data/
 │   ├── raw_data/               # Original Kaggle dataset
 │   └── clean_data/             # Five per-question CSVs (df_q1.csv ... df_q5.csv)
@@ -63,6 +65,10 @@ assignment2/
 │   ├── app.py                  # Streamlit dashboard application
 │   ├── logo.png                # Simpsons logo
 │   └── donut.png               # Donut decoration
+├── img/
+│   ├── q{1-5}_final.png        # Final chart per question
+│   └── q{1-5}_iterations/      # Design iteration charts per question
+├── benedikt-prisett_stijn-diemel/  # Final delivery snapshot (notebook, PDF, app, clean data, img)
 ├── dashboard_final.png         # Screenshot of the final Streamlit dashboard
 └── Instructions.md             # Assignment brief
 ```

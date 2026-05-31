@@ -11,7 +11,7 @@ Data Visualization course project at FIB, Universitat Politecnica de Catalunya (
 | Assignment | Topic | Folder |
 |----------|-------|--------|
 | 1 | Exploratory visualization: ratings, viewers, and trends (Seasons 1-27) | [`assignment1/`](assignment1/) |
-| 2 | *TBD* | [`assignment2/`](assignment2/) |
+| 2 | Interactive visual analytics: who talks the most across episodes, seasons, and minutes | [`assignment2/`](assignment2/) |
 
 ## Setup
 
